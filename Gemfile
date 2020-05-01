@@ -32,7 +32,7 @@ group :test do
   gem 'rspec-rails',        '~> 3.7'
   gem 'rubocop',            '~> 0.55', require: false
   gem 'shoulda-matchers',   '~> 3.1'
-  gem 'simplecov',          '0.12.0'
+  gem 'simplecov', '0.12.0'
   gem 'webmock',            '~> 3.3'
 end
 
