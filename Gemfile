@@ -3,21 +3,21 @@
 source 'https://rubygems.org'
 
 gem 'bunny',                            '~> 2.9', require: false
-gem 'email_validator',                  '~> 1.6'
+gem 'email_validator', '~> 1.6', '>= 1.6.0'
 gem 'figaro',                           '~> 1.1'
-gem 'grape',                            '~> 1.0'
-gem 'grape-swagger',                    '~> 0.29'
-gem 'grape-entity',                     '~> 0.7.1'
-gem 'grape_logging',                    '~> 1.8'
-gem 'jwt-multisig',                     '~> 1.0'
+gem 'grape', '~> 1.0', '>= 1.0.3'
+gem 'grape-swagger', '~> 0.29', '>= 0.29.0'
+gem 'grape-entity', '~> 0.7.1'
+gem 'grape_logging', '~> 1.8', '>= 1.8.0'
+gem 'jwt-multisig', '~> 1.0', '>= 1.0.0'
 gem 'memoist',                          '~> 0.16'
 gem 'mini_racer',                       '~> 0.1', require: false
 gem 'mysql2',                           '>= 0.3.18', '< 0.5'
 gem 'puma',                             '~> 3.7'
-gem 'rails',                            '~> 5.2'
-gem 'sass-rails',                       '~> 5.0'
+gem 'rails', '~> 5.2', '>= 5.2.4.3'
+gem 'sass-rails', '~> 5.0', '>= 5.0.7'
 gem 'uglifier',                         '~> 4.1'
-gem 'validates_lengths_from_database',  '~> 0.7.0'
+gem 'validates_lengths_from_database', '~> 0.7.0'
 gem 'faraday',                          '~> 0.15.0'
 gem 'faraday_middleware',               '~> 0.12'
 gem 'iban-tools',                       '~> 1.1'
@@ -28,16 +28,16 @@ group :development, :test do
 end
 
 group :test do
-  gem 'factory_bot_rails',  '~> 4.8'
-  gem 'rspec-rails',        '~> 3.7'
+  gem 'factory_bot_rails', '~> 4.8', '>= 4.8.2'
+  gem 'rspec-rails', '~> 3.7', '>= 3.7.2'
   gem 'rubocop',            '~> 0.55', require: false
-  gem 'shoulda-matchers',   '~> 3.1'
+  gem 'shoulda-matchers', '~> 3.1', '>= 3.1.2'
   gem 'simplecov',          '0.12.0'
   gem 'webmock',            '~> 3.3'
 end
 
 group :development do
-  gem 'annotate',              '~> 2.7'
-  gem 'grape_on_rails_routes', '~> 0.3'
+  gem 'annotate', '~> 2.7', '>= 2.7.3'
+  gem 'grape_on_rails_routes', '~> 0.3', '>= 0.3.2'
   gem 'listen',                '>= 3.0.5', '< 3.2'
 end
