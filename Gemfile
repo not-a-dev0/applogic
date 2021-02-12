@@ -14,7 +14,7 @@ gem 'memoist',                          '~> 0.16'
 gem 'mini_racer',                       '~> 0.1', require: false
 gem 'mysql2',                           '>= 0.3.18', '< 0.5'
 gem 'puma',                             '~> 3.7'
-gem 'rails',                            '~> 5.2'
+gem 'rails', '~> 6.0', '>= 6.0.3.5'
 gem 'sass-rails',                       '~> 5.0'
 gem 'uglifier',                         '~> 4.1'
 gem 'validates_lengths_from_database',  '~> 0.7.0'
@@ -38,6 +38,6 @@ end
 
 group :development do
   gem 'annotate',              '~> 2.7'
-  gem 'grape_on_rails_routes', '~> 0.3'
+  gem 'grape_on_rails_routes', '~> 0.3', '>= 0.3.2'
   gem 'listen',                '>= 3.0.5', '< 3.2'
 end
