@@ -29,7 +29,7 @@ end
 
 group :test do
   gem 'factory_bot_rails',  '~> 4.8'
-  gem 'rspec-rails',        '~> 3.7'
+  gem 'rspec-rails', '~> 8.0', '>= 8.0.0'
   gem 'rubocop',            '~> 0.55', require: false
   gem 'shoulda-matchers',   '~> 3.1'
   gem 'simplecov',          '0.12.0'
