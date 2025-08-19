@@ -14,10 +14,10 @@ gem 'memoist',                          '~> 0.16'
 gem 'mini_racer',                       '~> 0.1', require: false
 gem 'mysql2',                           '>= 0.3.18', '< 0.5'
 gem 'puma',                             '~> 3.7'
-gem 'rails',                            '~> 5.2'
+gem 'rails', '~> 7.1', '>= 7.1.5.2'
 gem 'sass-rails',                       '~> 5.0'
 gem 'uglifier',                         '~> 4.1'
-gem 'validates_lengths_from_database',  '~> 0.7.0'
+gem 'validates_lengths_from_database', '~> 0.8.0'
 gem 'faraday',                          '~> 0.15.0'
 gem 'faraday_middleware',               '~> 0.12'
 gem 'iban-tools',                       '~> 1.1'
@@ -37,7 +37,7 @@ group :test do
 end
 
 group :development do
-  gem 'annotate',              '~> 2.7'
+  gem 'annotate', '~> 3.2', '>= 3.2.0'
   gem 'grape_on_rails_routes', '~> 0.3'
   gem 'listen',                '>= 3.0.5', '< 3.2'
 end
