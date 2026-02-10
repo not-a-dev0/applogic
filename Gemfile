@@ -18,7 +18,7 @@ gem 'rails',                            '~> 5.2'
 gem 'sass-rails',                       '~> 5.0'
 gem 'uglifier',                         '~> 4.1'
 gem 'validates_lengths_from_database',  '~> 0.7.0'
-gem 'faraday',                          '~> 0.15.0'
+gem 'faraday', '~> 2.14.1'
 gem 'faraday_middleware',               '~> 0.12'
 gem 'iban-tools',                       '~> 1.1'
 
